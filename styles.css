@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-.navbar{
+/* Scrollbar designes */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #07537c;
+  }
+::-webkit-scrollbar-thumb
+  {
+    background-color: white;
+ }
+
+ .navbar{
     background-color:#122a48; 
 }
 .navbar .navbar-nav .nav-item a.nav-link {
     color: white;  
     font-weight: bold;  
 }
+
+/* homepage popup scrollbars */
+.ptag{
+    overflow-x:hidden;
+  overflow-y:auto;
+  min-height:200px;
+  max-height:250px;
+}
+
 /* Upcoming Event */
 .blink {
             animation: blinker 2.5s linear infinite;
@@ -190,7 +211,7 @@
     }
 }
 .text-box{
-    padding: 50px 10px;
+    padding: 80px 50px;
     background: #013a5e;
     width:650px;
     position: relative;
@@ -198,6 +219,7 @@
     font-size: 18px;
     
 }
+
 .left-container{  
     left: -400px;
 }
